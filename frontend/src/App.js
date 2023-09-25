@@ -41,7 +41,7 @@ function App() {
     <>
       
       <Container>
-        <Title>USÚARIOS</Title>
+        <Title>APLICAÇÃO WEB CRUD</Title>
         <Form onEdit={onEdit} setOnEdit={setOnEdit} getUsers={getUsers}/>
         <Grid users={users} setUsers={setUsers} setOnEdit={setOnEdit} />
       </Container>
